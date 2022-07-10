@@ -1,0 +1,28 @@
+.hero-btn {
+  min-width: 10px;
+  height: 32px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  margin-top: 40px;
+  border: none;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    color: #ffffff;
+    background-color: var(--accent-dark-color);
+    max-width: 696px;
+  }
+}
+
+.hero-btn {
+  background-color: var(--accent-color);
+  margin: 0 auto;
+}
