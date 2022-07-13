@@ -134,3 +134,7 @@
   max-width: 1600px;
   margin: 0 auto;
 }
+
+.hero-item {
+  flex-basis: calc((100% - 90px) / 3);
+}

@@ -54,4 +54,5 @@
   &:not(:last-child) {
     margin-right: 30px;
   }
+  flex-basis: calc((100% - 150px) / 4);
 }
