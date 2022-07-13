@@ -1,14 +1,14 @@
-.nav-list {
+.portfolio__list {
   display: flex;
   justify-content: center;
   margin-bottom: 56px;
 }
 
-.nav-item:not(:last-child) {
+.portfolio__item:not(:last-child) {
   margin-right: 8px;
 }
 
-.nav-button {
+.portfolio__button {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -41,7 +41,7 @@
   }
 }
 
-.nav-button button:hover {
+.portfolio__ button:hover {
   background-color: var(--accent-color);
   color: white;
 }

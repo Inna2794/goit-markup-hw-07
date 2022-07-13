@@ -10,13 +10,14 @@
   --color-red: red;
 }
 
+$--second-title-color: #212121;
+
 .color-black {
   color: var(--color-dark);
 }
 .color-white {
   color: #ffffff;
   display: block;
-  margin-bottom: 20px;
 }
 .color-blue {
   color: var(--accent-color);
