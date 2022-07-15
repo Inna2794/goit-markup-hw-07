@@ -227,6 +227,10 @@ body {
   color: var(--accent-color);
 }
 
+.navigation__link--current {
+  color: #2196f3;
+}
+
 .hero-connect {
   display: flex;
 }
@@ -358,6 +362,10 @@ body {
 
 .hero-item {
   flex-basis: calc((100% - 90px) / 3);
+}
+
+.hero-text {
+  margin-bottom: 30px;
 }
 
 .section-top-text {
