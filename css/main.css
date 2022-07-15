@@ -504,7 +504,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
-  margin-bottom: 28px;
+  margin-bottom: 10px;
 }
 
 .team__link {
@@ -836,11 +836,11 @@ address {
 }
 
 .modal-field {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .modal-field-text {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .backdrop {
@@ -889,6 +889,10 @@ address {
 }
 .input-check:focus + .check-text::before {
   border-color: 0.2px solid #ffffff;
+}
+
+.input-checkbox {
+  margin-bottom: 30px;
 }
 
 .input-btn {
