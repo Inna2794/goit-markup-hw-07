@@ -17,7 +17,6 @@
 }
 .contact__link.email:hover,
 .contact__link.email:focus {
-  margin-right: 30px;
   color: #2196f3;
 }
 
@@ -41,4 +40,9 @@
   &.phone:focus {
     color: #2196f3;
   }
+}
+
+.contact__link:hover .contact__icon,
+.contact__link:focus .contact__icon {
+  fill: #2196f3;
 }
